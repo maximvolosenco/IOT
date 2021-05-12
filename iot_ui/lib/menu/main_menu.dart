@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'menu_item.dart';
 import 'package:iot_ui/screens/image_selector_screen.dart';
+import 'package:iot_ui/screens/statistics_screen.dart';
+import 'package:iot_ui/test.dart';
 
 class MainMenu extends StatefulWidget {
   @override
@@ -87,7 +89,7 @@ class MainMenuState extends State<MainMenu> {
             new Container(
                 child: new ListTile(
                     leading: new Image.asset('assets/icons/user_account_icon.png'),
-                    title: Text("random_user@gmail.com")),
+                    title: Text("random_driver@gmail.com")),
                 margin: new EdgeInsetsDirectional.only(top: 20.0),
                 color: Colors.white,
                 constraints: BoxConstraints(maxHeight: 90.0, minHeight: 90.0)),
@@ -114,8 +116,12 @@ class MainMenuState extends State<MainMenu> {
 
   List<MenuItem> createMenuItems() {
     final menuItems = [
+      // new MenuItem("Test", 'assets/icons/homeScreen.png', Colors.black,
+      //         () => new TestImporter()),
       new MenuItem("Home", 'assets/icons/homeScreen.png', Colors.black,
-              () => new ImageSelectorScreen())
+              () => new ImageSelectorScreen()),
+      new MenuItem("Statistics", 'assets/icons/statistics.png', Colors.black,
+              () => new StatisticsScreen()),
     ];
     return menuItems;
   }

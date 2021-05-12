@@ -1,0 +1,13 @@
+{
+  "signName": "Stop",
+  "signPhotoUrl": "https://assets-au-01.kc-usercontent.com/1f0619a0-4164-0241-3335-de16f4a2d9f3/567a049e-13bc-4d44-8e84-66ff12387a25/article-understanding-australian-road-signs%20.jpg",
+  "locationId": 3
+}
+
+
+
+   Overtaking prohibited   
+
+   Stop                          
+ Speed limit 55 km/h   
+  90 km/h kangaroo  
